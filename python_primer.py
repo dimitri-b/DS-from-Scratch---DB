@@ -139,5 +139,7 @@ copy_of_x = x[:]   # [-1, 1, 2, ..., 9]
 # check if element is in the list
 print(1 in [1,2,3])
 
-
-
+# adding to lists
+x=[1,2,3]
+x.extend([4,5,6])
+print(x)
