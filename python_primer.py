@@ -141,5 +141,18 @@ print(1 in [1,2,3])
 
 # adding to lists
 x=[1,2,3]
-x.extend([4,5,6])
+x.append(0) # add one element
+x.extend([4,5,6]) # add another list
 print(x)
+
+y = x + [7,8,9]
+print(y)
+
+# unpack list into elements
+x,y = [1,2]
+# use _ to discard the handle to the element
+_,y = [1,2]
+
+# tuples---------------
+
+
